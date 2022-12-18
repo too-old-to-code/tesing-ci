@@ -1,0 +1,14 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabCloseButton": "right",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.settings.editor": "json",
+  "editor.guides.bracketPairs": true,
+  "typescript.extension.sortImports.sortOnSave": true
+}

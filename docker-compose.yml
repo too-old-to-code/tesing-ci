@@ -1,0 +1,14 @@
+version: '3.9'
+services:
+  nxtjs:
+    # depends_on:
+    #   - reverse-proxy
+    build: ./frontend
+
+  reverse-proxy:
+    depends_on:
+      - nxtjs
+    restart: always
+    build: .
+    ports:
+      - '80:80'
